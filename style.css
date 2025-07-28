@@ -1,0 +1,35 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(120deg, #e0c3fc, #8ec5fc);
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+nav a {
+  margin: 0 15px;
+  color: #ffcd3c;
+  text-decoration: none;
+  font-weight: bold;
+}
+section {
+  padding: 40px;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li::before {
+  content: "⭐ ";
+}
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
